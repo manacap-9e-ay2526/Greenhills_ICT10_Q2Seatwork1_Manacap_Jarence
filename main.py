@@ -13,7 +13,7 @@ def view_user(e):
     candidate_name = first_name + " " + last_name
 
     # List of ICT Club members
-    ict_club_members = ["rivera victoria","lim reuben","manalo antonio","manapat lucas","dannug reign","macachor hans","ukwatte dan"]
+    ict_club_members = ["rivera victoria", "lim reuben", "manalo antonio", "manapat lucas", "dannug reign", "macachor hans", "ukwatte dan"]
 
     # Checks the name
     candidate_checker = candidate_name.lower() in ict_club_members
